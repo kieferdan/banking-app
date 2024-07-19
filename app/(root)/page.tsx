@@ -1,7 +1,12 @@
 import HeaderBox from "@/components/HeaderBox";
+import RightSidebar from "@/components/RightSidebar";
 
 const Home = () => {
-  const loggedIn = { firstName: "Ben" };
+  const loggedIn = {
+    firstName: "Ben",
+    lastname: "JSM",
+    email: "ben@arrola.co",
+  };
 
   return (
     <section className="home">
@@ -15,6 +20,7 @@ const Home = () => {
           />
         </header>
       </div>
+      <RightSidebar user={loggedIn} transactions={[]} banks={[]} />
     </section>
   );
 };
