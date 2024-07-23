@@ -4,7 +4,7 @@ import RightSidebar from "@/components/RightSidebar";
 const Home = () => {
   const loggedIn = {
     firstName: "Ben",
-    lastname: "JSM",
+    lastName: "JSM",
     email: "ben@arrola.co",
   };
 
