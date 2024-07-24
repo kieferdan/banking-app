@@ -326,3 +326,10 @@ declare interface getBankProps {
 declare interface getBankByAccountIdProps {
   accountId: string;
 }
+
+declare interface customInputProps {
+  form: {control: Control<FormValues>;};
+  name: string;
+  label: string;
+  placeholder: string;
+}
