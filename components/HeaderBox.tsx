@@ -1,5 +1,3 @@
-import TotalBalanceBox from "./TotalBalanceBox";
-
 const HeaderBox = ({
   type = "title",
   title,
@@ -15,11 +13,6 @@ const HeaderBox = ({
         )}
       </h1>
       <p className="header-box-subtext">{subtext}</p>
-      <TotalBalanceBox
-        accounts={[]}
-        totalBanks={1}
-        totalCurrentBalance={3428.9}
-      />
     </div>
   );
 };
